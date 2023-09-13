@@ -12,7 +12,7 @@ for (let i = 0; i < buttons.length; i++) {
 function click() {
   let result = document.getElementById("result");
   let buttonclicked = document.getElementById(this.id).value;
-  result.innerHTML = "Your Chosen button is: " + buttonclicked;
+  result.innerHTML = "You selected  " + buttonclicked +" out of 5";
   this.disabled = true;
 
 }
